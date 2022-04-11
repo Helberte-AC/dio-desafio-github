@@ -1,0 +1,96 @@
+.flex{
+    min-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+}
+.flexx{
+    min-width: 300px;
+    min-height: 250px;
+    padding: 10px;   
+    display: flex;
+}
+.item{
+    background-color: aqua;
+    margin: 5px;
+}
+
+.flex-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.flex-item{
+    background: blue;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+} 
+
+.row{
+    flex-direction: row;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.row-reverse li{
+    background-color: red;
+}
+
+.column{
+    flex-direction: column;
+    float: left;
+}
+
+.column li{
+    background: orange;
+}
+
+.column-reverse{
+    flex-direction: column-reverse;
+    float: right;
+}
+
+.column-reverse li{
+    background: purple;
+}
+
+.item2{
+    font-size: 24px;
+    height: 50%;
+    text-align: center;
+    min-width: 100px;
+    line-height: 50px;
+}
+
+.flex-container2{
+    display: flex;
+    height: 150px;
+    border: 2px solid black;
+    max-width: 300px;
+   
+}
+
+.nowrap{
+    flex-wrap: nowrap;    
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
